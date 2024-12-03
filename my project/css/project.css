@@ -1,0 +1,274 @@
+
+        body{
+            opacity: 90%;
+            background-color: rgba(6, 6, 6, 0.94);
+            color: white;
+        }
+        
+        .heading{
+            /* width: 90%; */
+            text-decoration: none;
+            color:rgb(191, 191, 231); width:850px;text-decoration: none; 
+        }
+        .alt{
+            font-weight: 300px;
+        }
+        header{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            margin-left: 15px;
+            margin-top: 10px;
+        }
+        
+
+        #one{
+            padding-left: 20px;
+            font-size: 25px;
+            color: white;
+            
+        }
+        .background{
+            font-size: 200px;
+            font-weight: 700;
+            opacity: 20%;
+            position: absolute;
+            z-index: 1;
+        }
+        .search:hover::after{
+            content: "search";
+            position: absolute;
+            top: 50px;
+            font-size: 15px;
+            right:160px ;
+            opacity: 80%;
+        }
+        .crt:hover::after{
+            content: "Cart";
+            position: absolute;
+            top: 50px;
+            font-size: 15px;
+            right:97px ;
+            opacity: 80%;
+        }
+        .person:hover::after{
+            content: "Signup/Login";
+            position: absolute;
+            top: 50px;
+            font-size: 15px;
+            right:10px ;
+            opacity: 100%;
+        }
+        .one{
+            padding: 10px;
+            font-size: 12px;
+            margin-left: 100px;
+            margin-top: 100px;
+            width: 400px;
+            color: rgb(191, 191, 231);
+            /* position: absolute;
+            z-index: 2; */
+        }
+        .two{
+            align-items: center; 
+            width: 100px;
+            height: 30px;
+            border-radius: 4px;
+            background-color: red;
+        }
+        .two:hover{
+            background-color: rgb(255, 53, 53);
+        }
+        
+        .three{
+            margin-top: 100px;
+            text-align: center;           
+            height: 40px;
+
+        }
+        .none{
+            height: 400px;
+            margin-top: 100px;
+            display: grid;
+            grid-template-columns: repeat(5,1fr);
+        }
+        
+        .four{
+            margin-top: 10%;
+            display: flex;
+            justify-content: space-between;
+        }
+        .five{
+            padding-left: 20px;
+            padding-top: 100px;
+            
+        }
+        .six{
+            padding-top: 40px;
+            left: 200px;
+            text-align: center;
+        }
+        .seven{
+            text-align: center;
+            
+            left: 400px;
+        }
+        .eight{
+            text-align: center;
+            padding-top: 40px;
+            left: 600px;
+        }
+        .nine{
+            padding-right: 10px;
+            padding-top: 100px;
+            text-align: center;
+            left: 800px;
+        }
+        .anchor{
+          margin-left: 20px; 
+            /* margin:15px; */
+            color: white;
+            text-decoration: none;
+            padding: 5px 5px;
+            
+        }
+        .anchor:hover{
+            color: white;
+            border: 1px solid white;
+            background-color: red;
+            border-radius: 5px;
+        }
+        .ten{
+            margin-top: 70px;
+            margin-left: 280px;
+            
+        }
+        .details{
+            margin-left: 0.8%;
+            width: 500px;
+            margin-top: 80px;
+            display: grid;
+            grid-template-columns: repeat(4,3fr);
+        }
+        .products{
+            height: 460px;
+            margin: 8px;
+            border: 1px solid rgb(94, 92, 92);
+        }
+        .pro-images{
+            padding: 20px;
+            height: 190px;
+            width: 247px;
+            background-color: rgba(250, 243, 243, 0.105);
+        }
+        .star{
+            padding-top: 20px;
+            padding-left: 20px;
+        }
+        .name{
+            padding-top: 20px;
+            color: rgb(211, 211, 238);
+        }
+        .text{
+            color: rgb(192, 188, 188);
+        }
+        .bii{
+            color: red;
+        }
+        .cart{
+            border-radius: 5px;
+            color: white;
+            background-color: red;
+            padding: 10px;
+            width: 200px;
+            margin-top: 10px; 
+        }
+        .browse{
+            text-align: center;
+            align-content: center;
+            text-decoration: none;
+            color: rgb(211, 211, 238);
+        }
+        .advantages{
+            padding-bottom: 10%;
+            padding-top: 10%;
+            align-items: center;
+            text-align: center;
+        }
+        .lists{
+            display: flex;
+            list-style-type: none;
+        }
+        .im{
+            color: red;
+        }
+        .adv{
+            font-size: 39px;
+            /* margin-left: 50px; */
+            
+        }
+        .data{
+            margin:10px;
+        }
+        .data-align{
+            margin-left: 25px;
+        }
+        .color{
+            color:rgb(211, 211, 238);
+        }
+        .f-button{
+            border-radius: 5px;
+            color: white;
+            background-color: red;
+            padding: 5px 20px;
+            
+            margin-top: 10px;
+        }
+        .foot{
+           padding-bottom: 20px;
+            display: flex;
+
+        }
+        .subscribe{
+            margin-left: 20px;
+            width: 400px;
+        }
+        .policies{
+            margin-left: 10px;
+            color:rgb(211, 211, 238) ;
+            padding-bottom: 20px;
+        }
+        .help{
+            list-style-type: none;
+        }
+        p{
+            opacity: 50%;
+        }
+        .space{
+            opacity: 50%;
+            margin: 10px;
+        }
+        /* .last{
+            display: flex;
+            width: 246.5%;
+        }
+        .icons{
+            padding-top: 3%;
+            padding-bottom: 3%;
+            margin-left: 38%;
+            display: flex;
+            color: rgb(211, 211, 238)  ;
+        } */
+        .last{
+            padding-top: 10PX;
+            display: flex;
+        }
+        .icons{
+            padding-top: 30px;
+            margin-left: 300PX;
+            color: rgb(211, 211, 238)  ;
+        }
+
+        .biii{
+            font-size: 20PX;
+            margin-left: 25px;
+        }

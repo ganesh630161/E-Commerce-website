@@ -1,0 +1,243 @@
+
+body{
+    opacity: 90%;
+    background-color: rgba(6, 6, 6, 0.94);
+    color: white;
+}
+
+.heading{
+    text-decoration: none;
+    color:rgb(191, 191, 231); 
+    width:850px;
+    text-decoration: none; 
+}
+.alt{
+    font-weight: 300px;
+}
+header{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 15px;
+     margin-top: 10px;
+}
+
+#one{
+    font-size: 25px;
+    color: white;
+    
+}
+.dtls-page{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.div-images{
+    margin-left: 5%;
+    width: 33%;
+}
+.detail-imgs{
+    margin-bottom: 40px;
+    border-radius: 5%;
+    border: 2px solid rgba(255, 255, 255, 0.19);
+    padding: 10px;
+    height: 18%;
+    width: 100%;
+}
+.detail-imgs:hover{
+    background-color:rgba(255, 255, 255, 0.19) ;
+    border: 2px solid white;
+    scale: 1.05;
+}
+.dtls-img{
+    height: 100%;
+    width: 100%;
+}
+.expnd-img{
+    padding-bottom: 10%;
+    height:100%;
+    width: 100%;
+}
+.stock{
+    margin-left: 15px;
+    margin-top: 40%;
+    border-radius: 5px;
+    border: 1px dotted red;
+    padding: 10px;
+    width: fit-content;
+    background-color: green;
+}
+.exp-img-div{
+    margin-left: -70%;
+}
+.bii{
+    color: red;
+}
+.offers{
+    font-size: 13px;
+    padding: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color:rgba(177, 177, 216, 0.711) ;
+    margin-right: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.19) ;
+    background-color: rgba(255, 255, 255, 0.069);
+}
+.cart{
+    /* margin-left: 20%; */
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+    padding: 10px;
+    width: 200px;
+    margin-top: 10px; 
+    margin-bottom: 10px;
+}
+hr{
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+a{
+    text-decoration: none;
+    color:rgba(250, 246, 246, 0.843);
+}
+.spcs{
+    text-align: center;
+    margin-top: 70px;       
+}
+.spcs1{
+    margin-right: 50px;
+    padding: 10px 10px;
+}
+.spcs1:hover{
+    border-radius: 5px;
+    background-color: red;
+}
+.properties{
+    text-align: right;
+    color: rgb(217, 217, 240);
+}
+
+.brand{
+    color:rgba(177, 177, 216, 0.711)
+}
+.details{
+    width: 500px;
+    margin-top: 80px;
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* display: grid; */
+    /* grid-template-columns: repeat(2,2fr); */
+}
+.products{
+    height: 460px;
+    margin: 5px;
+    border: 1px solid rgb(94, 92, 92);
+    background-color: rgba(250, 243, 243, 0.105);
+    
+}
+.pro-images{
+    padding: 20px;
+    height: 190px;
+    width: 247px;
+    background-color: rgba(250, 243, 243, 0.105);
+}
+.star{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.name{
+    padding-top: 20px;
+    color: rgb(211, 211, 238);
+}
+.text{
+    color: rgb(192, 188, 188);
+}
+.bii{
+    color: red;
+}
+.cart{
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+    padding: 10px;
+    width: 200px;
+    margin-top: 10px; 
+}
+
+
+
+
+.advantages{
+    padding-bottom: 10%;
+    padding-top: 10%;
+    align-items: center;
+    text-align: center;
+}
+.lists{
+    display: flex;
+    list-style-type: none;
+}
+.im{
+    color: red;
+}
+.adv{
+    font-size: 39px;
+    /* margin-left: 50px; */
+    
+}
+.data{
+    margin:10px;
+}
+.data-align{
+    margin-left: 25px;
+}
+.color{
+    color:rgb(211, 211, 238);
+}
+.f-button{
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+    padding: 5px 20px;
+    
+    margin-top: 10px;
+}
+.foot{
+   padding-top: 30px;
+   padding-bottom: 20px;
+    margin-top: 10px;
+    display: flex;
+
+}
+.subscribe{
+    margin-left: 20px;
+    width: 400px;
+}
+.policies{
+    margin-left: 10px;
+    color:rgb(211, 211, 238) ;
+    padding-bottom: 20px;
+}
+.help{
+    list-style-type: none;
+}
+p{
+    opacity: 50%;
+}
+.space{
+    opacity: 50%;
+    margin: 10px;
+}
+.last{
+    padding: 40PX;
+    display: flex;
+}
+.icons{
+    margin-left: 300PX;
+    color: rgb(211, 211, 238)  ;
+}
+.biii{
+    font-size: 20PX;
+    margin-left: 25px;
+}
